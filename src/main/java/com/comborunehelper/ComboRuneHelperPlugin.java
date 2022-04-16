@@ -46,7 +46,7 @@ public class ComboRuneHelperPlugin extends Plugin {
 		if (currentLoc == null)
 			return;
 
-		if (currentLoc.distanceTo2D(FIRE_ALTAR) > 20 && currentLoc.distanceTo2D(WATER_ALTAR) > 30 && currentLoc.distanceTo2D(EARTH_ALTAR) > 30 && currentLoc.distanceTo2D(AIR_ALTAR) < 30){
+		if (currentLoc.distanceTo2D(FIRE_ALTAR) > 20 && currentLoc.distanceTo2D(WATER_ALTAR) > 30 && currentLoc.distanceTo2D(EARTH_ALTAR) > 30 && currentLoc.distanceTo2D(AIR_ALTAR) > 30){
 			return;
 		} else {
 			MenuEntry[] newEntries = Arrays.stream(client.getMenuEntries())
