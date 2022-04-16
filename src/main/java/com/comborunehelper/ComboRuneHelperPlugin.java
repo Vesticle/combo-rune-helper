@@ -21,10 +21,10 @@ public class ComboRuneHelperPlugin extends Plugin {
 	@Inject
 	private Client client;
 
-	private static final WorldPoint FIRE_ALTAR = new WorldPoint(2583, 4839, 0);
-	private static final WorldPoint WATER_ALTAR = new WorldPoint(2723, 4839, 0);
-	private static final WorldPoint EARTH_ALTAR = new WorldPoint(2863, 4839, 0);
-	private static final WorldPoint AIR_ALTAR = new WorldPoint(3083, 4839, 0);
+	private static final WorldPoint FIRE_ALTAR = new WorldPoint(2574, 4848, 0);
+	private static final WorldPoint WATER_ALTAR = new WorldPoint(2725, 4832, 0);
+	private static final WorldPoint EARTH_ALTAR = new WorldPoint(2655, 4830, 0);
+	private static final WorldPoint AIR_ALTAR = new WorldPoint(2841, 4829, 0);
 
 	@Override
 	protected void startUp() throws Exception {
